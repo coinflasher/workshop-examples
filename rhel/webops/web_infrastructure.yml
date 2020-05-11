@@ -50,8 +50,8 @@
       state: started
 
   - name: install nodejs
-    dnf:
-      name: '@nodejs/development'
+    yum:
+      name: 'nodejs'
       state: present
 
   - name: install nodejs systemd unit file
