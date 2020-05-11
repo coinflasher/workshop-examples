@@ -3,7 +3,7 @@ Description=nodejs app
 
 [Service]
 WorkingDirectory=/var/www/app
-ExecStart=/bin/node hello.js
+ExecStart=/opt/rh/rh-nodejs8/root/usr/bin/node hello.js
 Restart=always
 RestartSec=500ms
 
